@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+        }
+        @media (max-width: 600px){
+            div{
+                height: 100px;
+                width: 100px;
+            }
+        }
+        @media (min-width: 800px){
+            div{
+                height: 500px;
+                width: 500px;
+            }
+        }
+
+
+        body{
+            background-color: white;
+        }
+        @media (min-width: 319px){
+            body{
+                background-color: lightsalmon;
+            }
+        }
+        @media (min-width: 481px){
+            body{
+                background-color: powderblue;
+            }
+        }
+        @media (min-width: 1201px){
+            body{
+                background-color: limegreen;
+            }
+        }
+        @media (min-width: 1601px)
+        {
+            body{
+                background-color: seagreen;
+            }
+        }
+
+
+        /*
+            @media (max-width: 600px) and (min-width: 800px)
+                [css]
+        */    
+        /*    @media print(orientation: landscape)
+        */
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

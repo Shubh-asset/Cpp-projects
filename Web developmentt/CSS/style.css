@@ -1,0 +1,25 @@
+
+#head{
+    font-size: 40px;
+}
+
+#pixel{
+    font-size: 20px;
+}
+#point{
+    font-size: 20pt;
+}
+
+#footerr{
+    font-size: 10pt;
+}
+    #em{
+        font-size: 1em;
+    }
+
+#rem{
+    font-size: 1rem;
+
+      margin-left: 10px;
+}
+
