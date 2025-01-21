@@ -12,7 +12,6 @@ using namespace std;
 
 string choice;
 
-void game_play();
 void display_intro();
 void game_play();
 
